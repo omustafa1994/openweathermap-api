@@ -15,3 +15,6 @@ class TestingForecastData
 #  end
 
 end
+
+test = TestingForecastData.new
+p test.retrieve('524901', '926b57d3cf65c33ac400a2214e19481d')

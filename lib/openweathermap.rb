@@ -1,5 +1,5 @@
-require_relative 'services/testing_weather'
-require_relative 'services/testing_forecast'
+require_relative 'services/current_weather'
+require_relative 'services/five_day_forecast'
 
 #Superclass
 class OpenWeatherMaps
