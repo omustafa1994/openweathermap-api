@@ -10,11 +10,36 @@ class TestingForecastData
    @json_result = JSON.parse(self.class.get("/forecast?id=#{city_id}&APPID=#{api_key}").body)
  end
 
-#  def get_coord
-#   @json_result['coord']
-#  end
+ def get_cod
+  @json_result['cod']
+ end
+
+ def get_message
+  @json_result['message']
+ end
+
+ def get_cnt
+  @json_result['cnt']
+ end
+
+ def get_list
+  @json_result['list']
+ end
+
+ def get_list_dt
+  get_list[0]['dt']
+ end
+
+ def get_list_main
+  get_list[0]['main']
+ end
+
+ def get_list_main_temp
+  arr = []
+  get_list.each do |i|
+    arr << i['main']['temp']
+  end
+  arr
+ end
 
 end
-
-test = TestingForecastData.new
-p test.retrieve('524901', '926b57d3cf65c33ac400a2214e19481d')
