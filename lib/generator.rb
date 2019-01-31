@@ -1,10 +1,10 @@
-require_relative 'services/openweathermap'
+require_relative 'services/testing_weather'
 
 #Superclass
 class Generator
 
   def weather
-    TestingData.new
+    TestingWeatherData.new
   end
   
 end

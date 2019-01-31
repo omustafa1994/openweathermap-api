@@ -1,7 +1,7 @@
 require 'httparty'
 require 'json'
 
-class TestingData
+class TestingWeatherData
 
   include HTTParty
   base_uri 'http://api.openweathermap.org/data/2.5'
