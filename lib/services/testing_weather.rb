@@ -138,21 +138,4 @@ class TestingWeatherData
   @json_result['cod']
  end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 end
-
-# test = TestingData.new
-# p test.retrieve('524901')
- 

@@ -1,5 +1,5 @@
 require 'json'
-require_relative '../lib/generator'
+require_relative '../lib/openweathermap'
 require 'dotenv'
 
 Dotenv.load('.env')
