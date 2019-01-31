@@ -18,11 +18,11 @@ gem 'rspec'
 ```
 
 ### How to use
-To use the tests for yourself you can move the lib file in your own project. You will need to obtain your own API key in order for this to work and set up and dotenv file.
-``` ruby
+To use the tests for yourself you can move the lib file in your own project. You will need to obtain your own API key in order for this to work and set up and dotenv file. Create a ```.env``` and add this line of code:
+```
 API_KEY=[Enter API key here]
 ```
-In here place the API key and set up rspec using ```rspec --init```.
+In here place the API key and in terminal set up rspec using ```rspec --init```.
 
 ### Challenges 
 1. Setting up the dotenv folder and retrieving the API key that folder
