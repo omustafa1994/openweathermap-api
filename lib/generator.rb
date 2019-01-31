@@ -6,5 +6,5 @@ class Generator
   def weather
     TestingData.new
   end
-
+  
 end
