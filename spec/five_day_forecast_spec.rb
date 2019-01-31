@@ -34,7 +34,7 @@ describe OpenWeatherMaps do
       expect(@forecast_data.get_list_main).to be_kind_of(Hash)
     end
 
-    it 'should return main to be a hash' do
+    it 'should return EVERY temp to be a float' do
       @forecast_data.get_list_main_temp.each do |i|
       expect(i).to be_kind_of(Float)
     end
