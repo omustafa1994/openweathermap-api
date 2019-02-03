@@ -1,4 +1,5 @@
 # openweathermap-api
+https://openweathermap.org/api
 
 ### Description
 This application fetches two types of data from the openweathermap API; the current weather data and the 5 day forecast. Using spec, there are sets of unit tests which test the validity of the openweathermaps data. Numerous unit tests have been set-up and tested using the rspec gem. The use of HTTParty is required to fetch the API, allowing it to be tested.
