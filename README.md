@@ -1,4 +1,4 @@
-# Testing of Openweathermap API
+# Testing of OpenWeatherMap API
 https://openweathermap.org/api
 
 ### Description
